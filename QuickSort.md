@@ -30,7 +30,7 @@ public void quickSort(int[] arr, int left, int right) {
         if(left > right) break;
         int tmp = arr[left];
         arr[left] = arr[right];
-        arr[right] = tmp
+        arr[right] = tmp;
     }
     
     int tmp = arr[left];
