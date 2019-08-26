@@ -7,7 +7,6 @@
 
 - String은 `Heap`에 저장된다.
 - `Immutable`(불변성) 특징을 갖고 있다.
-- 문자열 연산을 할 때 계속해서 인스턴스를 생성한다.
 
 위 내용은 다음과 같이 증명할 수 있다.
 ```java
@@ -32,8 +31,7 @@ public static void main(String[] args){
   
 - string의 생성 방식은 두 가지가 있다.
     1. `new` 연산자를 이용하는 방법
-    2. `literal` 을 이용하는 방법
-
+    2. `literal` 을 이용하는 방법 
     ```java
     String operator = new String("hello");
     String literal = "hello";
