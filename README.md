@@ -16,6 +16,7 @@ TechnicalNote
 - [[JAVA] String, StringBuffer, StringBuilder의 차이](https://github.com/jobhope/TechnicalNote/blob/master/%5BJAVA%5D%20String%2C%20StringBuffer%2C%20StringBuilder%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [Eclipse Attach Source 설정하기](https://github.com/jobhope/TechnicalNote/blob/master/Eclipse%20Attach%20Source%20%EC%84%A4%EC%A0%95.md)
 - [교착상태(Deadlock)](https://github.com/jobhope/TechnicalNote/blob/master/Deadlock.md)
+- [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/DiceProblem.md)
 
 ## 컨퍼런스 후기
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
