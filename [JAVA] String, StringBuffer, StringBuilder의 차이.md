@@ -11,14 +11,19 @@
 위 내용은 다음과 같이 증명할 수 있다.
 ```java
 public static void main(String[] args){
+    String str = "Hello";
     String str1 = "Hello";
-    String str2 = "Hello";
+    String str2 = new String("Hello");
+    String str3 = str1;
 
+    // new 연산자는 항상 새로운 인스턴스를 생성한다.
     // == 연산은 객체의 주소값을 비교한다. 
     System.out.println(str1 == str2); // false
-
-    String str3 = str1;
     System.out.println(str1 == str3); // true
+
+    // literal로 생성된 객체는 string constant pool에 저장된다.
+    // pool 내에 같은 문자열이 있다면 해당 주소를 할당한다.
+    System.out.println(str == str1) // true
 
     // String은 immutable하기 때문에 'Hi'라는 새로운 객체를 만든다!
     str1 = "Hi";
