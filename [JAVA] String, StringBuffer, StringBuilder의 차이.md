@@ -58,11 +58,11 @@ public static void main(String[] args){
 
     `string constant pool` 은 Java 6 까지는 `Perm` 이라는 영역에 존재했다가 Java 7부터 `Heap` 영역으로 옮겨지게 되었는데 그 이유는 다음과 같았다. 
 
-    ```
+ 
     1. Perm은 Runtime에서 고정된 사이즈였기 때문에 String의 intern()을 호출하면 OOM(OutofMemoryException)을 발생시킬 수 있었다. 
 
     2. Heap으로 옮겨지면서 string constant pool의 모든 문자열도 GC(Garbage Collection)의 대상이 되었다!
-    ```
+
 
 <br>
 
