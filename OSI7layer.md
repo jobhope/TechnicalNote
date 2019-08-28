@@ -26,16 +26,18 @@
 
 ## OSI 7 계층의 구조
 
-|<center>계층</center>|<center>데이터 단위</center>|<center>프로토콜 예제</center>|
+|계층|데이터 단위|프로토콜 예제|
 |:---:|:---:|:--:|
-|<center>7. 응용 계층(**Application Layer**)</center>|<center>message</center>|<center>HTTP, SMTP, FTP, SIP</center>|
-|<center>6. 표현 계층(**Presentation Layer**)</center>|<center>message</center>|<center>ASCII, MPEG</center>|
-|<center>5. 세션 계층(**Session Layer**)</center>|<center>message</center>|<center>NetBIOS, TLS</center>|
-|<center>4. 전송 계층(**Transport Layer**)</center>|<center>segment</center>|<center>TCP, UDP, SCTP</center>|
-|<center>3. 네트워크 계층(**Network Layer**)</center>|<center>datagram, packet</center>|<center>IP, ICMP, ARP, RIP, BGP</center>|
-|<center>2. 데이터 링크 계층(**Data Link Layer**)</center>|<center>frame</center>|<center>PPP, Ethernet, Token ring, IEE 802.11(Wifi)</center>|
-|<center>1. 물리 계층(**Physical Layer**)</center>|<center>bit</center>|<center>DSL, ISDN</center>|
+|7. [응용 계층](#application)(**Application Layer**)|message|HTTP, SMTP, FTP, SIP|
+|6. [표현 계층](#presentation)(**Presentation Layer**)|message|ASCII, MPEG|
+|5. [세션 계층](#session)(**Session Layer**)|message|NetBIOS, TLS|
+|4. [전송 계층](#transport)(**Transport Layer**)|segment|TCP, UDP, SCTP|
+|3. [네트워크 계층](#network)(**Network Layer**)|datagram, packet|IP, ICMP, ARP, RIP, BGP|
+|2. [데이터 링크 계층](#datalink)(**Data Link Layer**)|frame|PPP, Ethernet, Token ring, IEE 802.11(Wifi)|
+|1. [물리 계층](#physical)(**Physical Layer**)|bit|DSL, ISDN|
 
+
+<a id="application"></a>
 ## 7계층 응용 계층(Application Layer)
 - 많은 프로토콜이 존재하는 계층으로서 통신의 최종 목적지이다.
 - 응용 프로그램들이 통신으로 활용하는 계층이며 새로운 응용 계층 프로토콜 추가는 굉장히 쉽다.
@@ -44,6 +46,7 @@
 - 그때 정의했던 규칙들 또한 응용 계층의 프로토콜이라고 볼 수 있다.
 - 마찬가지로 소켓 프로그래밍으로 HTTP의 규격에 맞는 형태로 메시지를 만들어 보내게 되면 HTTP 통신도 할 수 있다.
 
+<a id="presentation"></a>
 ## 6계층 표현 계층(Presentation Layer)
 - 애플리케이션들이 교환되는 데이터의 의미를 해석하도록 하는 서비스를 제공하는 계층이다.
 - 이들 서비스는 데이터가 표현되고 저장되는 내부적인 포멧 뿐만 아니라 데이터 압축과 데이터 암호화를 포함한다.
@@ -52,6 +55,7 @@
 - 따로 처리하지않으면 시스템의 기본 형태로 인코딩해서 바이트스트림 형태로 보내게 된다.
 - 만약 받는쪽과 인코딩 형태가 맞지 않으면 받은 데이터를 잘못 해석할 수 있다.
 
+<a id="session"></a>
 ## 5계층 세션 계층(Session Layer)
 - 데이터 교환의 경계와 동기화를 제공하는 계층이다.
 - 체킹포인트와 회복방법을 세우는 수단을 포함한다.
@@ -61,6 +65,7 @@
 - 또한 데이터를 상대방이 보내고 있을때 동시에 보낼지에 대한 반이중, 전이중 통신을 결정할 수 있다.
 - 다만 전이중 통신을 할 경우 전송 계층의 프로토콜도 해당하는 서비스를 지원하는 프로토콜로 결정해야한다.
 
+<a id="transport"></a>
 ## 4계층 전송 계층(Transport Layer)
 - 상위 계층의 메시지를 전송하는 서비스를 제공하는 계층으로 인터넷 같은경우 **TCP**, **UDP** 프로토콜이 대표적이다.
 - 전송 계층의 목적은 메시지의 오류를 제어하며 End-to-End로 종단간에 해당하는 지점까지 메시지를 주고 받는다.
@@ -72,6 +77,7 @@
 - TCP를 예로 들면 연결 지항형 통신을 제공하고, 패킷의 시퀸스 번호 등을 이용해서 손실, 중복, 순서에 대해 신뢰성을 보장하며 흐름제어, 혼잡제어 등의 서비스를 제공한다.
 - 그와 반대로 UDP는 비연결형 통신을 제공하며, 신뢰성, 흐름제어, 혼잡제어를 제공하지않는다.
 
+<a id="network"></a>
 ## 3계층 네트워크 계층(Network Layer)
 - 패킷을 한 호스트에서 다른 호스트로 라우팅하는 책임을 지는 계층으로 인터넷 같은경우 **IP** 프로토콜이 대표적이다.
 - 전송 계층에게 전달 받은 목적지 주소를 이용해서 패킷을 만들고 패킷을 전송해서 최종 목적지의 호스트의 전송 계층으로 Segment를 전달한다.
@@ -82,6 +88,7 @@
 - 그 외에도 데이터 전송에서 우선 순위 등을 통해서 특정 수준의 성능을 보장하는 **QoS**(Quality of Service)를 제공한다.
 - 이 계층의 장비로 대표적인 것은 라우터 이다.
 
+<a id="datalink"></a>
 ## 2계층 데이터 링크 계층(Data Link Layer)
 - 전체 프레임을 한 네트워크 요소에서 이웃 네트워크 요소로 이동하는 계층으로 인터넷 같은경우 **Ethernet** 프로토콜이 대표적이다.
 - Ethernet의 경우 MAC 주소를 이용해 Node-to-Node, Point-to-Point로 프레임을 전송하게 된다.
@@ -89,6 +96,7 @@
 - 또한 프로토콜에 따라 CRC처럼 데이터의 무결성을 검증할 수 있다.
 - 이 계층의 장비로 대표적인 것은 스위치, 브릿지 이다.
 
+<a id="physical"></a>
 ## 1계층 물리 계층(Physical Layer)
 - 프레임 내부의 각 비트를 한 노드에서 다음 노드로 실제로 이동하는 계층이다.
 - 이 계층의 프로토콜들은 데이터 링크 계층에 의존하고 더 나아가 실제 전송 매체(ex. 꼬임쌍선, 단일 모드 광케이블, 무선의 경우 주파수 등)에 의존한다.
@@ -105,8 +113,6 @@
 
 ## 참조
 - Computer Networking : A Top-Down Approach 6th, James F. Kurose*Keith W. Ross 지음
-- [TCP/IP 네트워크 스택 이해하기](https://d2.naver.com/helloworld/47667)
 
 ## 각주
 <a id="ref1" href="https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95"> 1) OSI 모형 wiki </a>
-
