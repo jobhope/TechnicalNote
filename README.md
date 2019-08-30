@@ -19,6 +19,10 @@ TechnicalNote
 - [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/DiceProblem.md)
 - [프로세스와 스레드](https://github.com/jobhope/TechnicalNote/blob/master/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 - [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/%EC%8A%A4%ED%83%9D%EC%9C%BC%EB%A1%9C%20%ED%81%90%20%EA%B5%AC%ED%98%84.md)
+- [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
 
 ## 컨퍼런스 후기
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
+
+## 글 작성용 템플릿
+- [template](https://github.com/jobhope/TechnicalNote/blob/master/template.md)
