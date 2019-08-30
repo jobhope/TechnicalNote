@@ -17,6 +17,8 @@ TechnicalNote
 - [Eclipse Attach Source 설정하기](https://github.com/jobhope/TechnicalNote/blob/master/Eclipse%20Attach%20Source%20%EC%84%A4%EC%A0%95.md)
 - [교착상태(Deadlock)](https://github.com/jobhope/TechnicalNote/blob/master/Deadlock.md)
 - [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/DiceProblem.md)
+- [프로세스와 스레드](https://github.com/jobhope/TechnicalNote/blob/master/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
+- [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/%EC%8A%A4%ED%83%9D%EC%9C%BC%EB%A1%9C%20%ED%81%90%20%EA%B5%AC%ED%98%84.md)
 
 ## 컨퍼런스 후기
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
