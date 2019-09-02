@@ -16,12 +16,12 @@
   - ### HTTPS
     - PWA는 네이티브 앱과 유사한 환경을 제공하기 위해 운영체제의 권한들을 일부 부여받는다.
     - 따라서 보안연결은 필수 이다보니 HTTP 프로토콜이 아닌 HTTPS 프로토콜을 사용해야한다.
-   - ### Web App Manifest
+  - ### Web App Manifest
     - 사이트와 관련된 정보를 앱의 기본요소인 manifest 파일에 JSON형태로 기록해야한다.
-   - ### Service Worker
+  - ### Service Worker
     - PWA를 구성하는 핵심 기술로서 브라우저에서 사용하던 기술이다.
     - 이 기술을 활용해 오프라인에서도 캐싱을 활용해 앱을 실행 시킬 수 있다.
-   - 그 외 기술들<sup>[5)](#ref1)</sup>
+  - ### 그 외 기술들<sup>[5)](#ref1)</sup>
   
 ## 그래서 왜 AMP, PWA?
 - 웹의 발전과 함께 사용자들은 더 빠른, 더 좋은 웹 서비스를 원해왔다.
@@ -34,7 +34,7 @@
 - [빠른 웹을 위한 오픈소스 프로젝트 - AMP](https://brunch.co.kr/@sangjinkang/10)
 
 ## 각주
-<a id="href1"></a>
+<a id="ref1"></a>
 - [1)나는 AMP를 좋아하지 않는다.](https://blog.outsider.ne.kr/1285)
 - [2)2018년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript[PWA 부분]](https://d2.naver.com/helloworld/5644368)
 - [3)프로그레시브 웹 앱이 무엇인가요?](https://developer.mozilla.org/ko/docs/Web/Progressive_web_apps/%EC%86%8C%EA%B0%9C)
