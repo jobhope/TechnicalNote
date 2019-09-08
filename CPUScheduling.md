@@ -8,7 +8,7 @@
 - CPU Scheduling은 프로세스가 아래와 같은 상황일 때 발생할 수 있다.
     - 실행 상태(running)에서 준비 상태(ready)로 전환 (인터럽트 발생)
     - 대기 상태(waiting)에서 준비 상태(ready)로 전환 (입출력 완료)
-    - 신규 상태(new)에서 실행 상태(running)로 변할 경우
+    - 준비 상태(ready)에서 실행 상태(running)로 변할 경우 (단기 스케줄링)
     - 실행 상태(running)에서 대기 상태(waiting)로 전환 (입출력 요청, wait)
     - 종료(terminated)
 
@@ -47,7 +47,7 @@ P2, P3, P1 순으로 도착 시 대기시간이 P1 = 6, P2 = 0, P3 = 0이고 평
 - CPU 점유 시간이 가장 짧은 프로세스에 CPU를 먼저 할당하는 기법이다.
 - 요구 시간이 긴 프로세스가 요구 시간이 짧은 프로세스에게 항상 양보되어 기아 상태가 발생할 수 있다.
 
-### 5. Shortest-Remaining-Time-First (SRTF)
+### 5. Shortest-Remaining-Time-First (SRTF) Scheduling
 - SJF Scheduling을 비선점에서 선점 형태로 수정한 Scheduling기법이다.
 - 장점
     - 최적이다.
@@ -59,7 +59,7 @@ P2, P3, P1 순으로 도착 시 대기시간이 P1 = 6, P2 = 0, P3 = 0이고 평
 ### 6. Highest Response Ratio Next(HRRN)
 - SJF Scheduling 기법의 약점인 긴 작업과 짧은 작업의 불평등을 보완한 Scheduling 기법이다.
 - 비선점형 Scheduling 기법이다.
-- 서비스받을 시간이 분모에 있으므로 짧은 작업의 우선순위가 높아진다.
+- 서비스 받을 시간이 분모에 있으므로 짧은 작업의 우선순위가 높아진다.
 - 대기 시간이 분자에 있으므로 긴 작업도 대기 시간이 큰 경우에는 우선순위가 높아진다.
 
 ![hrn](https://user-images.githubusercontent.com/21440957/64307767-155cdd00-cfd2-11e9-94e2-2a383e7d34bb.JPG)<sup>[1)](#ref1)</sup>
