@@ -24,6 +24,10 @@ TechnicalNote
 - [Memory Structure(메모리 구조)](https://github.com/jobhope/TechnicalNote/blob/master/MemoryStructure.md)
 - [Context Switching](https://github.com/jobhope/TechnicalNote/blob/master/ContextSwitching.md)
 - [AMP와 PWA](https://github.com/jobhope/TechnicalNote/blob/master/AMP%EC%99%80PWA.md)
+- [CPUScheduling](https://github.com/jobhope/TechnicalNote/blob/master/CPUScheduling.md)
+- [TopologySort](https://github.com/jobhope/TechnicalNote/blob/master/TopologySort.md)
+- [MergeSort](https://github.com/jobhope/TechnicalNote/blob/master/MergeSort.md)
+
 
 ## 컨퍼런스 후기
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
