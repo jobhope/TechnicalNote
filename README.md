@@ -29,6 +29,8 @@ TechnicalNote
 - [MergeSort](https://github.com/jobhope/TechnicalNote/blob/master/MergeSort.md)
 - [Tree](https://github.com/jobhope/TechnicalNote/blob/master/Tree.md)
 - [이진트리](https://github.com/jobhope/TechnicalNote/blob/master/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.md)
+- [동시성과 병렬성](https://github.com/jobhope/TechnicalNote/blob/master/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%B3%91%EB%A0%AC%EC%84%B1.md)
+- [MST](https://github.com/jobhope/TechnicalNote/blob/master/MST.md)
 
 ## 컨퍼런스 후기
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
