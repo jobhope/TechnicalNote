@@ -103,6 +103,45 @@ public void mergeSort(List<Integer> list, int start, int end) {
 }
 ```
 
+### Python3 Version
+```python3
+# python의 경우 list slicing을 활용해 더 깔끔한 코드가 가능하지만
+# slicing 때마다 List를 복사하므로 성능적인 부분과
+# 다른 언어의 코드와 유사한 형태로 작성하기 위해 index를 활용했습니다.
+def merge(valueList, left, right, mid):
+    temp = []
+    i, j = left, mid+1
+    while i <= mid and j <= right:
+        if valueList[i] <= valueList[j]:
+            temp.append(valueList[i])
+            i+=1
+        else:
+            temp.append(valueList[j])
+            j+=1
+    
+    # 남은 값 채우기
+    while i <= mid:
+        temp.append(valueList[i])
+        i+=1
+    while j <= right:
+        temp.append(valueList[j])
+        j+=1
+    
+    # 원래 리스트 값 변경
+    for idx in range(len(temp)):
+        valueList[idx+left] = temp[idx]
+
+
+def mergeSort(valueList, start, end):
+    if start < end :
+        mid = (start+end)//2
+        # 분할
+        mergeSort(valueList, start, mid)
+        mergeSort(valueList, mid+1, end)
+        # 병합
+        merge(valueList, start, end, mid)
+```
+
 ## 각주
 <a id="ref1">
 
