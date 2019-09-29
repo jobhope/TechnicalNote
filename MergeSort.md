@@ -66,39 +66,41 @@ void mergeSort(vector<int>& v, int start, int end)
 ### Java Version
 ```java
 // 정적, 동적 배열 모두 적용 가능하도록 List interface를 사용했습니다.
-public void merge(List<Integer> list, int left, int right, int mid){
-	List<Integer> temp = new ArrayList<>(list.size());
-	int i = left, j = mid+1;
-	while(i <= mid && j <= right) {
-		if(list.get(i) <= list.get(j)) {
+class MergeSort{
+	public void merge(List<Integer> list, int left, int right, int mid){
+		List<Integer> temp = new ArrayList<>(list.size());
+		int i = left, j = mid+1;
+		while(i <= mid && j <= right) {
+			if(list.get(i) <= list.get(j)) {
+				temp.add(list.get(i++));
+			}else {
+				temp.add(list.get(j++));
+			}
+		}
+
+		// 남은 값 뒤에 채우기
+		while(i<= mid) {
 			temp.add(list.get(i++));
-		}else {
+		}
+		while(j<= right) {
 			temp.add(list.get(j++));
 		}
-	}
-		
-	// 남은 값 뒤에 채우기
-	while(i<= mid) {
-		temp.add(list.get(i++));
-	}
-	while(j<= right) {
-		temp.add(list.get(j++));
-	}
-		
-	// 원래 리스트에 복사
-	for(int idx = left; idx <= right; idx++) {
-		list.set(idx, temp.get(idx-left));
-	}
-}
 
-public void mergeSort(List<Integer> list, int start, int end) {
-	if(start < end) {
-		int mid = (start + end)>>1;
-		// 분할
-		mergeSort(list, start, mid);
-		mergeSort(list, mid+1, end);
-		// 병합
-		merge(list, start, end, mid);
+		// 원래 리스트에 복사
+		for(int idx = left; idx <= right; idx++) {
+			list.set(idx, temp.get(idx-left));
+		}
+	}
+
+	public void mergeSort(List<Integer> list, int start, int end) {
+		if(start < end) {
+			int mid = (start + end)>>1;
+			// 분할
+			mergeSort(list, start, mid);
+			mergeSort(list, mid+1, end);
+			// 병합
+			merge(list, start, end, mid);
+		}
 	}
 }
 ```
@@ -140,6 +142,45 @@ def mergeSort(valueList, start, end):
         mergeSort(valueList, mid+1, end)
         # 병합
         merge(valueList, start, end, mid)
+```
+
+### JavaScript(Node.js) Version
+```node
+let merge = (list, left, right, mid)=>{
+    let temp = new Array();
+    let i = left, j = mid +1;
+    while(i <= mid && j <= right){
+        if(list[i] <= list[j]){
+            temp.push(list[i++]);
+        }else{
+            temp.push(list[j++]);
+        }
+    }
+
+    // 남은 값 뒤에 채우기
+    while(i <= mid){
+        temp.push(list[i++]);
+    }
+    while(j <= right){
+        temp.push(list[j++]);
+    }
+
+    // 원래 배열에 복사
+    temp.forEach((value, idx)=>{
+        list[left + idx] = value;
+    });
+};
+
+let mergeSort = (list, start, end)=>{
+    if(start < end){
+        let mid = (start+end)>>1;
+        // 분할
+        mergeSort(list, start, mid);
+        mergeSort(list, mid+1, end);
+        // 병합
+        merge(list, start, end, mid);
+    }
+};
 ```
 
 ## 각주
