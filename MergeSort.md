@@ -14,6 +14,8 @@
 ## Merge Sort의 구현
 1. 길이가 n인 정렬되지 않은 리스트를 각각 한개의 값을 포함하는 n개의 리스트로 분할한다. (한개는 정렬된 것으로 생각한다.)
 2. 다시 한개의 길이가 n인 리스트가 될때까지 분할된 리스트들을 반복해서 병합하면서 정렬한다.
+
+### C++ Version
 ```cpp
 void merge(vector<int>& v, int left, int right, int mid)
 {
@@ -23,7 +25,7 @@ void merge(vector<int>& v, int left, int right, int mid)
     int cnt = 0;
     while (i <= mid && j <= right)
     {
-        if (v[i] < v[j])
+        if (v[i] <= v[j])
         {
             tmp.push_back(v[i++]);
         }
@@ -61,6 +63,7 @@ void mergeSort(vector<int>& v, int start, int end)
     }
 }
 ```
+
 
 ## 각주
 <a id="ref1">
