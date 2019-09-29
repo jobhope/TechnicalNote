@@ -63,7 +63,45 @@ void mergeSort(vector<int>& v, int start, int end)
     }
 }
 ```
+### Java Version
+```java
+// 정적, 동적 배열 모두 적용 가능하도록 List interface를 사용했습니다.
+public void merge(List<Integer> list, int left, int right, int mid){
+	List<Integer> temp = new ArrayList<>(list.size());
+	int i = left, j = mid+1;
+	while(i <= mid && j <= right) {
+		if(list.get(i) <= list.get(j)) {
+			temp.add(list.get(i++));
+		}else {
+			temp.add(list.get(j++));
+		}
+	}
+		
+	// 남은 값 뒤에 채우기
+	while(i<= mid) {
+		temp.add(list.get(i++));
+	}
+	while(j<= right) {
+		temp.add(list.get(j++));
+	}
+		
+	// 원래 리스트에 복사
+	for(int idx = left; idx <= right; idx++) {
+		list.set(idx, temp.get(idx-left));
+	}
+}
 
+public void mergeSort(List<Integer> list, int start, int end) {
+	if(start < end) {
+		int mid = (start + end)>>1;
+		// 분할
+		mergeSort(list, start, mid);
+		mergeSort(list, mid+1, end);
+		// 병합
+		merge(list, start, end, mid);
+	}
+}
+```
 
 ## 각주
 <a id="ref1">
