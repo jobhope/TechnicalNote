@@ -31,6 +31,9 @@ TechnicalNote
 - [이진트리](https://github.com/jobhope/TechnicalNote/blob/master/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.md)
 - [동시성과 병렬성](https://github.com/jobhope/TechnicalNote/blob/master/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%B3%91%EB%A0%AC%EC%84%B1.md)
 - [MST](https://github.com/jobhope/TechnicalNote/blob/master/MST.md)
+- [HashMap과 Hashtable의 차이](https://github.com/jobhope/TechnicalNote/blob/master/HashMap%EA%B3%BC%20HashTable%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+- [DB 쿼리문 정리](https://github.com/jobhope/TechnicalNote/blob/master/DB%20%EC%BF%BC%EB%A6%AC%EB%AC%B8%20%EC%A0%95%EB%A6%AC.md)
+- [트리의 순회](https://github.com/jobhope/TechnicalNote/blob/master/%ED%8A%B8%EB%A6%AC%EC%9D%98%20%EC%88%9C%ED%9A%8C.md)
 
 ## 컨퍼런스 후기
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
