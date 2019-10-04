@@ -43,9 +43,24 @@ P2, P3, P1 순으로 도착 시 대기시간이 P1 = 6, P2 = 0, P3 = 0이고 평
     - 타임 슬라이스 시간을 너무 낮게 설정 -> Thread 간에 Context switching 하는 데 모든 시간을 소비하게 된다.
 - Context switching이 너무 자주 일어나지 않고 모든 생산성을 잃지 않는 한 Context switching시간은 일반적으로 무시할 수 있다.
 
+```
+time slice = 20이고 P1 = 53, P2 = 17, P3 = 68, P4 = 24 일 때
+```
+![RR](https://user-images.githubusercontent.com/21440957/66187500-e1073a00-e6bf-11e9-869e-5300427b8b5e.png)
+
+
 ### 4. Shortest-Job-First(SJF) Scheduling
 - CPU 점유 시간이 가장 짧은 프로세스에 CPU를 먼저 할당하는 기법이다.
 - 요구 시간이 긴 프로세스가 요구 시간이 짧은 프로세스에게 항상 양보되어 기아 상태가 발생할 수 있다.
+
+- 도착시간이 P1 = 0, P2 = 2, P3 = 4, P4 = 5이고 Burst Time이 P1 = 7, P2 = 4, P3 = 1, P4 = 4 일 때
+- 선점형
+- ![SJR1](https://user-images.githubusercontent.com/21440957/66187701-4e1acf80-e6c0-11e9-8c43-f40b16c30a65.png)
+- 평균대기시간은 (9+1+0+2)/4=3이다.
+
+- 비선점형
+- ![SJR2](https://user-images.githubusercontent.com/21440957/66187803-91753e00-e6c0-11e9-806d-13a24c3da443.png)
+- 평균대기시간은 (0+6+3+7)/4=4이다.
 
 ### 5. Shortest-Remaining-Time-First (SRTF) Scheduling
 - SJF Scheduling을 비선점에서 선점 형태로 수정한 Scheduling기법이다.
@@ -64,7 +79,7 @@ P2, P3, P1 순으로 도착 시 대기시간이 P1 = 6, P2 = 0, P3 = 0이고 평
 
 ![hrn](https://user-images.githubusercontent.com/21440957/64307767-155cdd00-cfd2-11e9-94e2-2a383e7d34bb.JPG)<sup>[1)](#ref1)</sup>
 ```
-대기시간이 P1 = 0 , P2 = 2, P3 = 4이고 서비스 시간이 P1 = 10, P2 = 4, P3 = 9일 때
+대기시간이 P1 = 0 , P2 = 2, P3 = 4이고 서비스 시간이 P1 = 10, P2 = 4, P3 = 9 일 때
 P1 우선순위 : (0+10)/10 = 1
 P2 우선순위 : (2+4)/4 = 1.5
 P3 우선순위 : (4+9)/9 = 1.4
