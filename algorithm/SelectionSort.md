@@ -47,7 +47,6 @@ void selectionSort(int[] list) {
             }
         }
         //가장 작은 값을 현재 인덱스의 값과 바꿔준다.
-	}
         int t = list[tmp];
         list[tmp] = list[i];
         list[i] = t;
