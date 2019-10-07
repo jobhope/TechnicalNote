@@ -12,6 +12,8 @@ TechnicalNote
 - [QuickSort(퀵 정렬)](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/QuickSort.md)
 - [TopologySort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/TopologySort.md)
 - [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/%EC%8A%A4%ED%83%9D%EC%9C%BC%EB%A1%9C%20%ED%81%90%20%EA%B5%AC%ED%98%84.md)
+- [SelectionSort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/SelectionSort.md)
+- [Insertion Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/InsertionSort.md)
 
 ## Computer Architecture
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
@@ -26,6 +28,7 @@ TechnicalNote
 
 ## Database
 - [DB 쿼리문 정리](https://github.com/jobhope/TechnicalNote/blob/master/database/DB%20%EC%BF%BC%EB%A6%AC%EB%AC%B8%20%EC%A0%95%EB%A6%AC.md)
+- [JOIN의 종류](https://github.com/jobhope/TechnicalNote/blob/master/database/JOIN%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
 
 ## Design Pattern
 - [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/design_pattern/Design%20Pattern.md)
@@ -57,6 +60,7 @@ TechnicalNote
 ## Programming Language
 - [객체 지향 원칙](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99.md)
 - [자료형](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EC%9E%90%EB%A3%8C%ED%98%95.md)
+- [Call by Sharing](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/call-by-sharing.md)
 
 ## Web
 - [AMP와 PWA](https://github.com/jobhope/TechnicalNote/blob/master/web/AMP%EC%99%80PWA.md)
