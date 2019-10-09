@@ -28,7 +28,7 @@
 vector<int> topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size)
 {
 	queue<int> q;
-	queue<int> result;
+	vector<int> result;
 	
 	// 진입 차수가 0인 노드를 큐에 삽입
 	for (int i = 0; i < size; i++)
