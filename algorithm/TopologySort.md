@@ -25,9 +25,11 @@
 
 ```cpp
 // 인자 : 간선 모음, 진입차수 배열, 크기
-void topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size)
+vector<int> topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size)
 {
 	queue<int> q;
+	queue<int> result;
+	
 	// 진입 차수가 0인 노드를 큐에 삽입
 	for (int i = 0; i < size; i++)
 	{
@@ -36,20 +38,21 @@ void topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size)
 			q.push(i);
 		}
 	}
+	
 	// 모든 노드 반복
 	for (int i = 0; i < size; i++)
 	{
 		// n개를 방문하기 전에 큐가 빈다면 사이클 발생
 		if (q.empty())
 		{
-			return;
+			return result;
 		}
 		int front = q.front();
 		q.pop();
 		result.push_back(front);
-		for (int i = 0; i < a[front].size(); i++)
+		for (int j = 0; j < a[front].size(); j++)
 		{
-			int x = a[front][i];
+			int x = a[front][j];
 			// 새롭게 진입차수가 0이 된 정점을 큐에 삽입
 			if (--inDegree[x] == 0)
 			{
@@ -57,6 +60,8 @@ void topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size)
 			}
 		}
 	}
+	
+	return result;
 }
 ```
 
