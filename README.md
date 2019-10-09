@@ -9,7 +9,7 @@ TechnicalNote
 ## Algorithm
 - [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/DiceProblem.md)
 - [MergeSort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/MergeSort.md)
-- [QuickSort(퀵 정렬)](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/QuickSort.md)
+- [QuickSort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/QuickSort.md)
 - [TopologySort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/TopologySort.md)
 - [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/%EC%8A%A4%ED%83%9D%EC%9C%BC%EB%A1%9C%20%ED%81%90%20%EA%B5%AC%ED%98%84.md)
 - [SelectionSort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/SelectionSort.md)
@@ -19,7 +19,7 @@ TechnicalNote
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
 
 ## Data Structure
-- [Hashing(해싱)](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Hashing.md)
+- [Hashing](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Hashing.md)
 - [MST](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/MST.md)
 - [Tree](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Tree.md)
 - [이진트리](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.md)
@@ -49,9 +49,9 @@ TechnicalNote
 - [Nagle](https://github.com/jobhope/TechnicalNote/blob/master/network/Nagle.md)
 
 ## Operating System
-- [교착상태(Deadlock)](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Deadlock.md)
+- [Deadlock](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Deadlock.md)
 - [프로세스와 스레드](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
-- [Memory Structure(메모리 구조)](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/MemoryStructure.md)
+- [Memory Structure](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/MemoryStructure.md)
 - [Context Switching](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/ContextSwitching.md)
 - [CPUScheduling](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/CPUScheduling.md)
 - [동시성과 병렬성](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%B3%91%EB%A0%AC%EC%84%B1.md)
