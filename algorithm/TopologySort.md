@@ -23,6 +23,7 @@
 - 모든 원소를 방문하기 전에 큐가 비었다면 사이클이 존재하는 것이다.
 - 모든 원소를 방문하고 큐가 비었다면 큐에서 꺼낸 순서가 정렬의 결과가 된다.
 
+### C++ Version
 ```cpp
 // 인자 : 간선 모음, 진입차수 배열, 크기
 vector<int> topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size)
@@ -65,6 +66,51 @@ vector<int> topologySort(vector<vector<int>>& a, vector<int>& inDegree, int size
 }
 ```
 
+### Java Version
+```java
+import java.util.*;
+
+class TopologySort{
+    
+    /**
+    * @param adjacencyList 인접리스트
+    * @param inDegree 진입차수의 리스트
+    * @param size 노드수
+    * @return List<Integer> 정렬의 결과(크기가 size와 다를 경우 사이클 존재)
+    */
+    public List<Integer> topologySort(List<List<Integer>> adjacencyList, List<Integer> inDegreeList, int size){
+        LinkedList<Integer> queue = new LinkedList<>();
+        LinkedList<Integer> result = new LinkedList<>();
+        ArrayList<Integer> inDegree = new ArrayList<>(inDegreeList);
+        // 진입 차수가 0인 노드를 큐에 삽입
+        for(int i = 0 ; i < size; i++){
+            if(inDegree.get(i) == 0){
+                queue.offer(i);
+            }
+        }
+
+        int currentNode, connectedNode;
+        List<Integer> currentList;
+        // 모든 노드 반복
+        for(int i = 0 ; i < size; i++){
+            if(queue.isEmpty()){
+                return result;
+            }
+            currentNode = queue.poll();
+            result.offer(currentNode);
+            currentList = adjacencyList.get(currentNode);
+            for(int j = 0, len = currentList.size(); j < len; j++){
+                connectedNode = currentList.get(j);
+                inDegree.set(connectedNode, inDegree.get(connectedNode)-1);
+                if(inDegree.get(connectedNode) == 0){
+                    queue.offer(connectedNode);
+                }
+            }
+        }
+        return result;
+    }
+}
+```
 
 ## 각주
 <a id="ref1">
