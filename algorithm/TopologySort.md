@@ -112,6 +112,30 @@ class TopologySort{
 }
 ```
 
+### Python Version
+```python3
+def topologySort(adjacencyList, inDegreeList, size):
+    queue = []
+    result = []
+    inDegree = [x for x in inDegreeList]
+    for i in range(size):
+        if inDegree[i] == 0:
+            queue.append(i)
+    
+    currentNode = 0
+    for i in range(size):
+        if len(queue) == 0 :
+            return result
+        
+        currentNode = queue.pop(0)
+        result.append(currentNode)
+        for connectedNode in adjacencyList[currentNode]:
+            inDegree[connectedNode] = inDegree[connectedNode] -1
+            if(inDegree[connectedNode] == 0):
+                queue.append(connectedNode)
+    return result
+```
+
 ## 각주
 <a id="ref1">
 
