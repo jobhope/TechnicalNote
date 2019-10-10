@@ -74,7 +74,7 @@ class TopologySort{
     
     /**
     * @param adjacencyList 인접리스트
-    * @param inDegree 진입차수의 리스트
+    * @param inDegreeList 진입차수의 리스트
     * @param size 노드수
     * @return List<Integer> 정렬의 결과(크기가 size와 다를 경우 사이클 존재)
     */
