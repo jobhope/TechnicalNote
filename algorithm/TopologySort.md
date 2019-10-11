@@ -74,14 +74,14 @@ class TopologySort{
     
     /**
     * @param adjacencyList 인접리스트
-    * @param inDegreeList 진입차수의 리스트
+    * @param inDegree 진입차수의 리스트
     * @param size 노드수
     * @return List<Integer> 정렬의 결과(크기가 size와 다를 경우 사이클 존재)
     */
-    public List<Integer> topologySort(List<List<Integer>> adjacencyList, List<Integer> inDegreeList, int size){
+    public List<Integer> topologySort(List<List<Integer>> adjacencyList, List<Integer> inDegree, int size){
         LinkedList<Integer> queue = new LinkedList<>();
         LinkedList<Integer> result = new LinkedList<>();
-        ArrayList<Integer> inDegree = new ArrayList<>(inDegreeList);
+        inDegree = new ArrayList<>(inDegree); // pass by value를 이용한 재정의
         // 진입 차수가 0인 노드를 큐에 삽입
         for(int i = 0 ; i < size; i++){
             if(inDegree.get(i) == 0){
@@ -114,10 +114,10 @@ class TopologySort{
 
 ### Python Version
 ```python3
-def topologySort(adjacencyList, inDegreeList, size):
+def topologySort(adjacencyList, inDegree, size):
     queue = []
     result = []
-    inDegree = [x for x in inDegreeList]
+    inDegree = [x for x in inDegree] # call by sharing을 이용한 재정의
     for i in range(size):
         if inDegree[i] == 0:
             queue.append(i)
