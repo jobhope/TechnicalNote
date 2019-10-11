@@ -136,6 +136,34 @@ def topologySort(adjacencyList, inDegree, size):
     return result
 ```
 
+### JavaScript Version
+```js
+let topologySort = (adjacencyList, inDegree, size)=>{
+    let result = new Array();
+    inDegree = inDegree.map(v=>v); // call by sharing 이용
+    // 진입 차수가 0인 노드를 큐에 삽입
+    let queue = inDegree.filter(value => value == 0);
+    
+    // 모든 노드 반복
+    let currentNode;
+    for(let i = 0; i < size; i++){
+        if(queue.length == 0){
+            return result;
+        }
+
+        currentNode = queue.shift();
+        result.push(currentNode);
+        adjacencyList[currentNode].forEach(value => {
+            inDegree[value]--;
+            if(inDegree[value] == 0){
+                queue.push(value);
+            }
+        });
+    }
+    return result;
+}
+```
+
 ## 각주
 <a id="ref1">
 
