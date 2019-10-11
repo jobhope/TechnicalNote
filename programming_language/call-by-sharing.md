@@ -5,10 +5,10 @@
 
 
 ## Call by Sharing?
-- Python의 함수 인자 전달 방식
-- **값**(Value)을 전달하면 **지역 변수로만** 사용한다. (원본 값 변경 되지 않음)
-- **객체**(Reference)를 전달하면 **속성의 값은 변경 가능**
-- 전달받은 **객체에 새로운 메모리 값의 할당은 불가능**
+- Python, JavaScript 등의 함수 인자 전달 방식(Java에서는 이와 유사한 동작을 하지만 Pass by value<sup>[1)](#ref)</sup>라고 부른다)
+- **값**(Value)을 전달하면 복사해서 전달하기 때문에 **지역 변수로만** 사용한다. (원본 값 변경 되지 않음)
+- **객체**(Reference)를 전달하면 Mutable한 객체이면 **속성의 값은 변경 가능**
+- call by reference와 달리 전달받은 **객체에 새로운 메모리 값의 할당은 불가능**, 내부에서 재정의해서 사용 가능
 
 ### 값을 전달하면 지역변수로만 사용
 ```javascript=
@@ -47,9 +47,19 @@ console.log(obj2.item);   // unchanged
 ```
 
 ## in Python
-- 변경 불가능 데이터 : 전역 변수, 튜플
-- 변경 가능한 객체 : 리스트
+- 변경 가능한(Mutable) 객체 : list, set, dictionary
+- 변경 불가능한(Immutable) 객체 : 그 외 모든 객체(bool, int, float, tuple, str, frozenset) - 파이썬은 int, bool등의 모든 값이 객체이다<sup>[2)](#ref)</sup>
+
+## in JavaScript
+- 변경 가능한(Mutable) 객체 : primitive data type (Boolean, null, undefined, Number, String, Symbol) <sup>[3)](#ref)</sup>
+- 변경 불가능한(Immutable) 객체 : 그 외 모든 객체
 
 ## Link
 [참고블로그](https://medium.com/@lyhlg0201/call-by-value-reference-sharing-4bbcf94d9808)  
 [참고블로그2](https://yes90.tistory.com/47)
+
+## 각주
+<a id="ref"></a>
+- 1)&nbsp;Java에서는 JVM의 Stack의 Value를 전달하기 때문에 primitive type, reference type의 value를 전달한다는 의미로 pass by value 라고 부르는 것 같다. 
+- [2) Mutable vs Immutable Objects in Python](https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747)
+- [3) 객체와 변경불가성(Immutability)](https://poiemaweb.com/js-immutability)
