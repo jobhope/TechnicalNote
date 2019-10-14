@@ -51,8 +51,8 @@ console.log(obj2.item);   // unchanged
 - 변경 불가능한(Immutable) 객체 : 그 외 모든 객체(bool, int, float, tuple, str, frozenset) - 파이썬은 int, bool등의 모든 값이 객체이다<sup>[2)](#ref)</sup>
 
 ## in JavaScript
-- 변경 가능한(Mutable) 객체 : primitive data type (Boolean, null, undefined, Number, String, Symbol) <sup>[3)](#ref)</sup>
-- 변경 불가능한(Immutable) 객체 : 그 외 모든 객체
+- 변경 가능한(Mutable) 객체 : 그 외 모든 객체
+- 변경 불가능한(Immutable) 객체 : primitive data type (Boolean, null, undefined, Number, String, Symbol) <sup>[3)](#ref)</sup>
 
 ## Link
 [참고블로그](https://medium.com/@lyhlg0201/call-by-value-reference-sharing-4bbcf94d9808)  
