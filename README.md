@@ -48,6 +48,8 @@ TechnicalNote
 - [포트와 소켓](https://github.com/jobhope/TechnicalNote/blob/master/network/%ED%8F%AC%ED%8A%B8%EC%99%80%20%EC%86%8C%EC%BC%93.md)
 - [서브넷마스크](https://github.com/jobhope/TechnicalNote/blob/master/network/SubnetMask.md)
 - [Nagle 알고리즘](https://github.com/jobhope/TechnicalNote/blob/master/network/Nagle.md)
+- [TCP와 UDP의 차이](https://github.com/jobhope/TechnicalNote/blob/master/network/TCPAndUDP.md)
+
 
 ## Operating System
 - [메모리 구조](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/MemoryStructure.md)
