@@ -2,7 +2,7 @@
 
 ## 작성자
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
-
+[![Stupid07](https://avatars1.githubusercontent.com/u/35564566?s=100&v=4)](https://github.com/Stupid07)
 
 ## Call by Sharing?
 - Python, JavaScript 등의 함수 인자 전달 방식(Java에서는 이와 유사한 동작을 하지만 Pass by value<sup>[1)](#ref)</sup>라고 부른다)
