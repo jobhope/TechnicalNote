@@ -2,7 +2,7 @@
 
 ## 작성자
 [![tdm1223](https://avatars1.githubusercontent.com/u/21440957?s=100&v=4)](https://github.com/tdm1223)
-
+[![Stupid07](https://avatars1.githubusercontent.com/u/35564566?s=100&v=4)](https://github.com/Stupid07)
 ## Merge Sort란?
 - **분할 정복** 방식으로 설계된 비교 기반 정렬이다. <sup>[1)](#ref1)</sup>
 - 큰 문제를 반으로 쪼개 문제를 해결해 나가는 방식으로 분할은 배열의 크기가 1보다 작거나 같을 때까지 반복한다.
