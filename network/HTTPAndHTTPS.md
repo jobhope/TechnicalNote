@@ -18,7 +18,7 @@
 - 443번 포트를 사용한다.
 - 모든 HTTP 요청과 응답 데이터는 네트워크로 보내지기 전에 전송 계층과 응용 계층 사이에서 암호화된다.
 - 통신 패킷을 **Sniffing**<sup>[1)](#ref)</sup>하더라도 정보를 보호 할 수 있다.
-- 보안을 위해 사용하는 세션키(대칭키)를 생성 및 교환하는 과정이 필요하다. 이를 **SSL Handshake** 라고 한다.
+- 보안을 위해 사용하는 [세션키(대칭키)](https://github.com/jobhope/TechnicalNote/tree/master/security/encryptionKey.md)를 생성 및 교환하는 과정이 필요하다. 이를 **SSL Handshake** 라고 한다.
 
 ### SSL Handshake
 - SSL Handshake의 핵심은 비대칭키를 이용한 인증과정을 통해 서로 공유하는 대칭키를 생성하는 것이다.
