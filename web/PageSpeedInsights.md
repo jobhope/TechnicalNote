@@ -5,15 +5,15 @@
 
 ## In Front-end 
 
-### Code Compression
+### 1. Code Compression
 - js, css 소스코드를 압축
 - 용량 감소에 따른 네트워크 패킷 전송 속도 증가
 
-### Image Optimization
+### 2. Image Optimization
 - 고해상도 이미지를 device 해상도에 맞게 최적화
 - 리사이징, 손실 압축 기법 등이 존재 
 
-### Image Sprite
+### 3. Image Sprite
 ![CSS Sprite sample](https://user-images.githubusercontent.com/28692938/68067786-a7455400-fd8f-11e9-985f-251adc971dbd.jpg)
 ```css
 <style>
@@ -30,19 +30,19 @@
 - 모바일 같이 한정된 자원을 사용하는 플랫폼에서 로딩 시간 개선 가능
 - 이미지 파일을 하나로 합쳐서 관리하므로 서버측 용량도 줄일 수 있다.
 
-### Image Lazy Loading
+### 4. Image Lazy Loading
 - 웹 페이지에서 이미지의 로딩을 지연 실행
 - 이미지 로드 때문에 전체 페이지의 로드가 느려지는 것을 해결하기 위한 방법
 <br>
 
 ## In Back-end
 
-### [Browser Cache(HTTP Cache)](https://github.com/jobhope/TechnicalNote/blob/master/web/HttpCache.md)
+### 1. [Browser Cache(HTTP Cache)](https://github.com/jobhope/TechnicalNote/blob/master/web/HttpCache.md)
 - max-age
 - Last Modified
 - Etag
 
-### CDN(Content Delivery Network)
+### 2. CDN(Content Delivery Network)
 - 이미지 저장을 위한 프록시 서버
 - 사용자 기준 가장 가까운 곳의 서버로부터 컨텐츠를 전송 받는다.
 - 트래픽이 특정 서버에 집중되지 않고 분산되도록 하는 기술
@@ -51,6 +51,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 ```
 
-### [모바일에서 웹 사이트의 속도를 개선 시킬 수있는 AMP](https://github.com/jobhope/TechnicalNote/blob/master/web/AMP%EC%99%80PWA.md)
+### 3. [모바일에서 웹 사이트의 속도를 개선 시킬 수있는 AMP](https://github.com/jobhope/TechnicalNote/blob/master/web/AMP%EC%99%80PWA.md)
 
-### DB Index
+### 4. DB Index
