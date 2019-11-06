@@ -30,6 +30,10 @@
     - **PUT** : 수정(update)
     - **DELETE** : 삭제(delete)
     - **HEAD** : header 정보 조회
+    - **OPTIONS**
+    - **PATCH**
+    - **TRACE**
+    - **CONNECT**
 
 - 쉽게 말해 REST는 다음의 구성으로 이루어져 있다.<sup>[1)](#ref1)</sup>
 ```
