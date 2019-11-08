@@ -7,7 +7,6 @@
 
 ### 1. Final variable
 - 변수의 값을 **상수**로 지정
-- `static` 키워드와 함께 사용
 
 ### 2. Final method
 - **오버라이딩 불가**
