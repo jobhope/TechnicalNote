@@ -37,6 +37,7 @@
 ## :floppy_disk: Database [:top:](#top)
 - [DB 쿼리문 정리](https://github.com/jobhope/TechnicalNote/blob/master/database/DB%20%EC%BF%BC%EB%A6%AC%EB%AC%B8%20%EC%A0%95%EB%A6%AC.md)
 - [JOIN의 종류](https://github.com/jobhope/TechnicalNote/blob/master/database/JOIN%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
+- [DDL,DML,DCL](https://github.com/jobhope/TechnicalNote/blob/master/database/DDL%2CDML%2CDCL.md)
 
 ## :hammer: Software Engineering [:top:](#top)
 - [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/design_pattern/Design%20Pattern.md)
@@ -50,6 +51,8 @@
 - [Eclipse Attach Source 설정하기](https://github.com/jobhope/TechnicalNote/blob/master/java/Eclipse%20Attach%20Source%20%EC%84%A4%EC%A0%95.md)
 - [String, StringBuffer, StringBuilder의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/String%2C%20StringBuffer%2C%20StringBuilder%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [HashMap과 Hashtable의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/HashMap%EA%B3%BC%20HashTable%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+- [final](https://github.com/jobhope/TechnicalNote/blob/master/java/final.md)
+
 
 ## :globe_with_meridians: Network [:top:](#top)
 - [OSI 7 Layer](https://github.com/jobhope/TechnicalNote/blob/master/network/OSI7layer.md)
@@ -85,6 +88,7 @@
 - [세션과 쿠키](https://github.com/jobhope/TechnicalNote/blob/master/web/SessionAndCookie.md)
 - [Open API Architecture](https://github.com/jobhope/TechnicalNote/blob/master/web/OpenAPIArchitecture.md)
 - [HTTP Cache](https://github.com/jobhope/TechnicalNote/blob/master/web/HttpCache.md)
+- [웹 페이지 속도 개선 방법](https://github.com/jobhope/TechnicalNote/blob/master/web/PageSpeedInsights.md)
 
 
 ## :guitar: ETC [:top:](#top)
