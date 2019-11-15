@@ -5,8 +5,6 @@
 :book: TechnicalNote
 ===
 
-[![HitCount](http://hits.dwyl.io/jobhope/TechnicalNote.svg)](http://hits.dwyl.io/jobhope/TechnicalNote)
-
 ### :two_men_holding_hands: **created by** 
 [![tdm1223](https://avatars1.githubusercontent.com/u/21440957?s=100&v=4)](https://github.com/tdm1223)
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
@@ -23,6 +21,9 @@
 - [Counting Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/CountingSort.md)
 - [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/DiceProblem.md)
 - [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/%EC%8A%A4%ED%83%9D%EC%9C%BC%EB%A1%9C%20%ED%81%90%20%EA%B5%AC%ED%98%84.md)
+
+## :moneybag: C++ [:top:](#top)
+- [형변환 연산자](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/TypeCastingOperator.md)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
@@ -54,6 +55,7 @@
 - [String, StringBuffer, StringBuilder의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/String%2C%20StringBuffer%2C%20StringBuilder%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [HashMap과 Hashtable의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/HashMap%EA%B3%BC%20HashTable%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [final](https://github.com/jobhope/TechnicalNote/blob/master/java/final.md)
+- [Interface와 abstract의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/InterfaceAndAbstract.md)
 
 
 ## :globe_with_meridians: Network [:top:](#top)
