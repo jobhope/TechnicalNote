@@ -30,12 +30,15 @@
 - [실행파일의 생성과정](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/ExecutionProcess.md)
 
 ## :evergreen_tree: Data Structure [:top:](#top)
+- [Stack](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Stack.md)
+- [Queue](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Queue.md)
 - [트리](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Tree.md)
 - [이진트리](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.md)
 - [트리의 순회](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/%ED%8A%B8%EB%A6%AC%EC%9D%98%20%EC%88%9C%ED%9A%8C.md)
 - [최소신장트리(MST)](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/MST.md)
 - [자료구조를 이용한 스택의 구현](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%8A%A4%ED%83%9D%EC%9D%98%20%EA%B5%AC%ED%98%84.md)
 - [해싱](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Hashing.md)
+
 
 ## :floppy_disk: Database [:top:](#top)
 - [DB 쿼리문 정리](https://github.com/jobhope/TechnicalNote/blob/master/database/DB%20%EC%BF%BC%EB%A6%AC%EB%AC%B8%20%EC%A0%95%EB%A6%AC.md)
@@ -92,6 +95,7 @@
 - [세션과 쿠키](https://github.com/jobhope/TechnicalNote/blob/master/web/SessionAndCookie.md)
 - [Open API Architecture](https://github.com/jobhope/TechnicalNote/blob/master/web/OpenAPIArchitecture.md)
 - [HTTP Cache](https://github.com/jobhope/TechnicalNote/blob/master/web/HttpCache.md)
+- [HTTP Method](https://github.com/jobhope/TechnicalNote/blob/master/web/HTTPMethod.md)
 - [웹 페이지 속도 개선 방법](https://github.com/jobhope/TechnicalNote/blob/master/web/PageSpeedInsights.md)
 
 
