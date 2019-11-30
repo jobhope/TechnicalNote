@@ -10,6 +10,13 @@
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
 [![Stupid07](https://avatars1.githubusercontent.com/u/35564566?s=100&v=4)](https://github.com/Stupid07)
 
+## TechnicalNote?
+- 개발 관련 지식을 정리해놓은 저장소입니다.
+- 필기시험과 면접에서 직접 겪었던 내용들 위주로 구성되어 있습니다.
+- 잘못된 부분이 있을 수도 있으니 가이드라인으로 참고해주시면 되겠습니다.
+- 궁금한점이나 잘못된 부분은 Issue의 Question label 설정 후 등록해주세요.
+- 참고 자료 및 올렸으면 하는 지식을 Issue 등록을 통해 추가해주세요.
+
 ## :books: Algorithm [:top:](#top)
 - [Bubble Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/BubbleSort.md)
 - [Selection Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/SelectionSort.md)
