@@ -32,6 +32,7 @@
 ## :evergreen_tree: Data Structure [:top:](#top)
 - [Stack](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Stack.md)
 - [Queue](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Queue.md)
+- [Deque](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Deque.md)
 - [트리](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Tree.md)
 - [이진트리](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.md)
 - [트리의 순회](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/%ED%8A%B8%EB%A6%AC%EC%9D%98%20%EC%88%9C%ED%9A%8C.md)
@@ -46,7 +47,8 @@
 - [DDL,DML,DCL](https://github.com/jobhope/TechnicalNote/blob/master/database/DDL%2CDML%2CDCL.md)
 
 ## :hammer: Software Engineering [:top:](#top)
-- [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/design_pattern/Design%20Pattern.md)
+- [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Design%20Pattern.md)
+- [오픈소스 라이센스](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Opensource%20license.md)
 
 ## :octocat: Github [:top:](#top)
 - [repository를 clone할 때 모든 branch를 loacl에 받기](https://github.com/jobhope/TechnicalNote/blob/master/github/CloneRepository.md)
@@ -87,6 +89,7 @@
 - [객체 지향 원칙](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99.md)
 - [자료형](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EC%9E%90%EB%A3%8C%ED%98%95.md)
 - [Call by Sharing](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/call-by-sharing.md)
+- [Short Circuit](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/ShortCircuit.md)
 
 ## :earth_asia: Web [:top:](#top)
 - [AMP와 PWA](https://github.com/jobhope/TechnicalNote/blob/master/web/AMP%EC%99%80PWA.md)
