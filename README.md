@@ -4,7 +4,11 @@
 
 :book: TechnicalNote
 ===
+[![GitHub contributors](https://img.shields.io/github/contributors/jobhope/technicalnote)](https://github.com/jobhope/TechnicalNote/graphs/contributors)
 [![HitCount](http://hits.dwyl.io/jobhope/TechnicalNote.svg)](http://hits.dwyl.io/jobhope/TechnicalNote)
+[![GitHub](https://img.shields.io/github/license/jobhope/technicalnote)](https://github.com/jobhope/TechnicalNote/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/jobhope/technicalnote)](https://github.com/jobhope/TechnicalNote/issues)
+
 ### :two_men_holding_hands: **created by** 
 [![tdm1223](https://avatars1.githubusercontent.com/u/21440957?s=100&v=4)](https://github.com/tdm1223)
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
