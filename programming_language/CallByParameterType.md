@@ -11,7 +11,7 @@ function foo(parameter, param){
 }
 
 function main(){
-	let argument;
+    let argument;
     foo(argument, 10);
 }
 ```

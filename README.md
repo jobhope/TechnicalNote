@@ -56,10 +56,14 @@
 - [DB 쿼리문 정리](https://github.com/jobhope/TechnicalNote/blob/master/database/DB%20%EC%BF%BC%EB%A6%AC%EB%AC%B8%20%EC%A0%95%EB%A6%AC.md)
 - [JOIN의 종류](https://github.com/jobhope/TechnicalNote/blob/master/database/JOIN%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
 - [DDL,DML,DCL](https://github.com/jobhope/TechnicalNote/blob/master/database/DDL%2CDML%2CDCL.md)
+- [트랜잭션의 ACID 속성](https://github.com/jobhope/TechnicalNote/blob/master/database/ACID.md)
+
 
 ## :hammer: Software Engineering [:top:](#top)
 - [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Design%20Pattern.md)
 - [오픈소스 라이센스](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Opensource%20license.md)
+- [Naming Convention](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Naming%20Convention.md)
+
 
 ## :octocat: Github [:top:](#top)
 - [repository를 clone할 때 모든 branch를 loacl에 받기](https://github.com/jobhope/TechnicalNote/blob/master/github/CloneRepository.md)
@@ -73,6 +77,8 @@
 - [final](https://github.com/jobhope/TechnicalNote/blob/master/java/final.md)
 - [Interface와 abstract의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/InterfaceAndAbstract.md)
 
+## :1234: 선형대수학 [:top:](#top)
+- [행렬](https://github.com/jobhope/TechnicalNote/blob/master/linear_algebra/matrix.md)
 
 ## :globe_with_meridians: Network [:top:](#top)
 - [OSI 7 Layer](https://github.com/jobhope/TechnicalNote/blob/master/network/OSI7layer.md)
@@ -91,6 +97,7 @@
 - [Deadlock](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Deadlock.md)
 - [CPU 스케줄링](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/CPUScheduling.md)
 - [페이지 교체 알고리즘](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+- [메모리 단편화](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Fragmentation.md)
 
 ## :lock: Security [:top:](#top)
 - [대칭키와 공개키](https://github.com/jobhope/TechnicalNote/blob/master/security/encryptionKey.md)
@@ -101,6 +108,8 @@
 - [자료형](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EC%9E%90%EB%A3%8C%ED%98%95.md)
 - [Call by Sharing](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/call-by-sharing.md)
 - [Short Circuit](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/ShortCircuit.md)
+- [함수의 인자 전달 방식](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/CallByParameterType.md)
+
 
 ## :earth_asia: Web [:top:](#top)
 - [AMP와 PWA](https://github.com/jobhope/TechnicalNote/blob/master/web/AMP%EC%99%80PWA.md)
@@ -111,6 +120,7 @@
 - [HTTP Cache](https://github.com/jobhope/TechnicalNote/blob/master/web/HttpCache.md)
 - [HTTP Method](https://github.com/jobhope/TechnicalNote/blob/master/web/HTTPMethod.md)
 - [웹 페이지 속도 개선 방법](https://github.com/jobhope/TechnicalNote/blob/master/web/PageSpeedInsights.md)
+- [DI와 IoC](https://github.com/jobhope/TechnicalNote/blob/master/web/DIAndIoC.md)
 
 
 ## :guitar: ETC [:top:](#top)
