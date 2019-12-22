@@ -19,7 +19,10 @@
 - 필기시험과 면접에서 **직접 겪었던** 내용 위주로 구성되어 있습니다.
 - 잘못된 부분이 있을 수도 있으니 **가이드라인**으로 참고해주시면 되겠습니다.
 - 궁금한 점이나 잘못된 부분은 **Issue**의 **Question** label 설정 후 등록해주세요.
-- 참고 자료 및 올렸으면 하는 지식을 **Issue** 등록을 통해 추가해주세요.
+- 참고 자료 및 올렸으면 하는 지식을 **[Issue](https://github.com/jobhope/TechnicalNote/issues)** 등록을 통해 추가해주세요.
+
+## :microphone: 실제 면접 질문 모음  
+- [실제 면접 질문 모음](https://github.com/jobhope/TechnicalNote/blob/master/InterviewQuestions.md)
 
 ## :books: Algorithm [:top:](#top)
 - [Bubble Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/BubbleSort.md)
@@ -72,6 +75,7 @@
 
 ## :1234: Linear Algebra [:top:](#top)
 - [행렬](https://github.com/jobhope/TechnicalNote/blob/master/linear_algebra/matrix.md)
+- [벡터의 내적](https://github.com/jobhope/TechnicalNote/issues/86)
 
 ## :globe_with_meridians: Network [:top:](#top)
 - [OSI 7 Layer](https://github.com/jobhope/TechnicalNote/blob/master/network/OSI7layer.md)
@@ -91,6 +95,7 @@
 - [CPU 스케줄링](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/CPUScheduling.md)
 - [페이지 교체 알고리즘](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 - [메모리 단편화](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Fragmentation.md)
+- [클린 코드](https://github.com/jobhope/TechnicalNote/commit/c175af4ccb5d439eeefb98289acc75bbe4680f1c)
 
 ## :speech_balloon: Programming Language [:top:](#top)
 - [객체 지향 원칙](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99.md)
