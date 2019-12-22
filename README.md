@@ -75,7 +75,7 @@
 
 ## :1234: Linear Algebra [:top:](#top)
 - [행렬](https://github.com/jobhope/TechnicalNote/blob/master/linear_algebra/matrix.md)
-- [벡터의 내적](https://github.com/jobhope/TechnicalNote/issues/86)
+- [벡터의 내적](https://github.com/jobhope/TechnicalNote/blob/master/linear_algebra/DotProduct.md)
 
 ## :globe_with_meridians: Network [:top:](#top)
 - [OSI 7 Layer](https://github.com/jobhope/TechnicalNote/blob/master/network/OSI7layer.md)
@@ -95,7 +95,7 @@
 - [CPU 스케줄링](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/CPUScheduling.md)
 - [페이지 교체 알고리즘](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 - [메모리 단편화](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Fragmentation.md)
-- [클린 코드](https://github.com/jobhope/TechnicalNote/commit/c175af4ccb5d439eeefb98289acc75bbe4680f1c)
+- [클린 코드](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/CleanCode.md)
 
 ## :speech_balloon: Programming Language [:top:](#top)
 - [객체 지향 원칙](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99.md)
