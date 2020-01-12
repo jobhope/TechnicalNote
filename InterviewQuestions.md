@@ -44,8 +44,7 @@
 - Interface와 abstract의 차이
 - final에 대해 설명(용도 3가지, 왜 쓰는지)
 - Java의 JVM에서 5가지 메모리 구조에 대해 설명
-- Java에서 Minor Garbage Collection과 Major Garbage 
-- Collection의 동작 방식에 대해 설명
+- Java에서 Minor Garbage Collection과 Major Garbage Collection의 동작 방식에 대해 설명
 - Collections Framework에서 List, Set, Map 등의 특징
 - Exception 발생은 컴파일 과정에서 하는지 실행 과정에서 하는지
 - Generic에 대해 이전에 비해 어떤 이점이 있는지 설명
