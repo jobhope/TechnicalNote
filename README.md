@@ -35,6 +35,7 @@
 - [Counting Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/CountingSort.md)
 - [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/DiceProblem.md)
 - [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/%EC%8A%A4%ED%83%9D%EC%9C%BC%EB%A1%9C%20%ED%81%90%20%EA%B5%AC%ED%98%84.md)
+- [좌표 압축 기법](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/CoordinateCompression.md)
 
 ## :moneybag: C++ [:top:](#top)
 - [형변환 연산자](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/TypeCastingOperator.md)
@@ -63,6 +64,7 @@
 
 ## :octocat: Github [:top:](#top)
 - [repository를 clone할 때 모든 branch를 loacl에 받기](https://github.com/jobhope/TechnicalNote/blob/master/github/CloneRepository.md)
+- [Pull Request 방법](https://github.com/jobhope/TechnicalNote/blob/master/github/GithubPullRequestProcess.md)
 
 ## :lips: Java [:top:](#top)
 - [객체지향 프로그래밍](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/OOP.md)
