@@ -36,16 +36,13 @@ sort(xPosition.begin(), xPosition.end());
 sort(yPosition.begin(), yPosition.end());
     
 // 좌표 압축 
-int x = 0;
-int y = 0;
 for (int i = 0; i < data.size(); i++) 
 {
     for (int j = 0; j < xPosition.size(); j++) 
     {
         if (data[i][0] == xPosition[j]) 
         {
-            x = j;
-            data[i][0] = x; // x 좌표를 인덱스로 대체한다.
+            data[i][0] = j; // data의 i번째 x 값을 xPosition의 인덱스로 대체한다.
             break;
         }
     }
@@ -53,8 +50,7 @@ for (int i = 0; i < data.size(); i++)
     {
         if (data[i][1] == yPosition[j]) 
         {
-            y = j;
-            data[i][1] = y; // y 좌표를 인덱스로 대체한다.
+            data[i][1] = j; // data의 i번째 y값을 yPosition의 인덱스로 대체한다.
             break;
         }        
     }
