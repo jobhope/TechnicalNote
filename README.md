@@ -14,6 +14,12 @@
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
 [![Stupid07](https://avatars1.githubusercontent.com/u/35564566?s=100&v=4)](https://github.com/Stupid07)
 
+### :frowning_man: **도움을 주신 분들**
+<a href="https://github.com/Kaminari-j"><img width=100 height=100 src="https://avatars2.githubusercontent.com/u/5924648?s=100&v=4"></img>
+</a>   
+**도움에 감사드립니다.** :pray:
+
+
 ## TechnicalNote?
 - **개발 관련 지식**을 정리해 놓은 저장소입니다.
 - 필기시험과 면접에서 **직접 겪었던** 내용 위주로 구성되어 있습니다.
@@ -125,6 +131,9 @@
 - [웹 페이지 속도 개선 방법](https://github.com/jobhope/TechnicalNote/blob/master/web/PageSpeedInsights.md)
 - [DI와 IoC](https://github.com/jobhope/TechnicalNote/blob/master/web/DIAndIoC.md)
 
+## :open_file_folder: Window [:top:](#top)
+- [메시지 루프](https://github.com/jobhope/TechnicalNote/blob/master/windows/MessageLoop.md)
+ 
 ## :guitar: ETC [:top:](#top)
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/etc/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
 - [DEVIEW - MongoDB](https://github.com/jobhope/TechnicalNote/blob/master/etc/DEVIEW_MongoDB.md)
