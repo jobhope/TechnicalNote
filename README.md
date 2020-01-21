@@ -103,7 +103,6 @@
 - [CPU 스케줄링](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/CPUScheduling.md)
 - [페이지 교체 알고리즘](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 - [메모리 단편화](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Fragmentation.md)
-- [클린 코드](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/CleanCode.md)
 
 ## :speech_balloon: Programming Language [:top:](#top)
 - [객체 지향 원칙](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99.md)
@@ -119,6 +118,7 @@
 - [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Design%20Pattern.md)
 - [오픈소스 라이센스](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Opensource%20license.md)
 - [Naming Convention](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Naming%20Convention.md)
+- [클린 코드](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/CleanCode.md)
 
 ## :earth_asia: Web [:top:](#top)
 - [AMP와 PWA](https://github.com/jobhope/TechnicalNote/blob/master/web/AMP%EC%99%80PWA.md)
