@@ -73,7 +73,6 @@
 - [Pull Request 방법](https://github.com/jobhope/TechnicalNote/blob/master/github/GithubPullRequestProcess.md)
 
 ## :lips: Java [:top:](#top)
-- [객체지향 프로그래밍](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/OOP.md)
 - [JVM](https://github.com/jobhope/TechnicalNote/blob/master/java/JVM.md)
 - [Eclipse Attach Source 설정하기](https://github.com/jobhope/TechnicalNote/blob/master/java/Eclipse%20Attach%20Source%20%EC%84%A4%EC%A0%95.md)
 - [String, StringBuffer, StringBuilder의 차이](https://github.com/jobhope/TechnicalNote/blob/master/java/String%2C%20StringBuffer%2C%20StringBuilder%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
@@ -105,6 +104,7 @@
 - [메모리 단편화](https://github.com/jobhope/TechnicalNote/blob/master/operating_system/Fragmentation.md)
 
 ## :speech_balloon: Programming Language [:top:](#top)
+- [객체지향 프로그래밍](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/OOP.md)
 - [객체 지향 원칙](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99.md)
 - [자료형](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/%EC%9E%90%EB%A3%8C%ED%98%95.md)
 - [Call by Sharing](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/call-by-sharing.md)
