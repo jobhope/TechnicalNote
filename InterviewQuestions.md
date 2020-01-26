@@ -33,6 +33,7 @@
 - 객체끼리 비교할 때 어떻게 같은 객체인지 아는지?
 - 주력 언어가 무엇인지, 왜 그 언어를 선택했는지 설명
 - 업캐스팅과 다운캐스팅
+- Garbage Collection이 무엇인지 설명
 
 ### Java
 - Reflection 설명
@@ -100,7 +101,6 @@
 - 클라우드의 종류에 대해 설명
 
 ## 컴퓨터 네트워크
-- Garbage Collection이 무엇인지 설명
 - http tcp udp에 대해 설명
 - tcp udp의 차이
 - tcp의 nagle 알고리즘
