@@ -3,6 +3,7 @@
 ## 작성자
 [![tdm1223](https://avatars1.githubusercontent.com/u/21440957?s=100&v=4)](https://github.com/tdm1223)
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
+[![Stupid07](https://avatars1.githubusercontent.com/u/35564566?s=100&v=4)](https://github.com/Stupid07)
 
 ## Radix Sort란?
 - 낮은 자리수부터 비교하여 정렬해 간다는 것을 기본 개념으로 하는 정렬 알고리즘<sup>[1)](#ref)</sup>
@@ -119,8 +120,71 @@ public class Main {
 ```
 
 ### Python version
+```python3
+def radixSort(array):
+    if not isinstance(array, list): # list check
+        print("parameter is not list")
+        return
+    
+    maxNumber = max(array)
+    count = [0 for _ in range(10)]
+    output = [x for x in range(len(array))]
+
+    exp = 1
+    while exp <= maxNumber:
+        count = list(map(lambda x: 0 , count))
+
+        for number in array:
+            count[(number//exp)%10] += 1
+        
+        for idx in range(1, len(count)):
+            count[idx] += count[idx-1]
+        
+        for number in array[::-1]:
+            idx = (number//exp)%10
+            count[idx] -= 1
+            output[count[idx]] = number
+        
+        for idx, number in enumerate(output):
+            array[idx] = number
+
+        exp *= 10
+```
+
 
 ### Javascript version
+```javascript
+let radixSort = (array)=>{
+    if(!Array.isArray(array)){ // 배열만 처리하도록 체크
+        console.log("Array가 아닙니다.");
+        return;
+    }
+    
+    let max = array.reduce((acc, cur)=>acc > cur ? acc : cur);
+    // map을 이용해서 매번 배열을 생성하지 않고 처리하기 위해 미리 생성
+    let count = new Array(10).fill(0);
+    let output = new Array(array.length);
+
+    for(let exp=1; exp <= max; exp*=10){
+        count.fill(0);
+        // 각 자리수를 버킷에 저장
+        array.forEach(v => count[parseInt(v/exp)%10]++);
+
+        // 인덱스로 이용하기 위해 값 누적
+        count.reduce((acc, cur, idx, arr) => arr[idx] = acc + cur);
+
+        // 자리수가 같은 수에 대해 순서를 유지하기 위해 뒤에서부터 저장
+        array.reduceRight((acc, cur)=>{
+            acc[--count[parseInt(cur / exp) % 10]] = cur;
+            return acc;
+        }, output);
+
+        array.forEach((v, idx, arr) => arr[idx] = output[idx]);
+    }
+    
+}
+```
+
 
 ## Link
 <a id = "ref">
