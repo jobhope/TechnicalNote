@@ -117,6 +117,7 @@
 
 ## :lock: Security [:top:](#top)
 - [대칭키와 공개키](https://github.com/jobhope/TechnicalNote/blob/master/security/encryptionKey.md)
+- [파일 완전 삭제](https://github.com/jobhope/TechnicalNote/blob/master/security/DeleteFilePermanently.md)
 
 ## :hammer: Software Engineering [:top:](#top)
 - [디자인 패턴](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Design%20Pattern.md)
