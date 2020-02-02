@@ -45,6 +45,7 @@
 
 ## :moneybag: C++ [:top:](#top)
 - [형변환 연산자](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/TypeCastingOperator.md)
+- [Virtual](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Virtual.md)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
@@ -67,6 +68,9 @@
 - [JOIN의 종류](https://github.com/jobhope/TechnicalNote/blob/master/database/JOIN%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
 - [DDL,DML,DCL](https://github.com/jobhope/TechnicalNote/blob/master/database/DDL%2CDML%2CDCL.md)
 - [트랜잭션의 ACID 속성](https://github.com/jobhope/TechnicalNote/blob/master/database/ACID.md)
+- [트랜잭션 격리수준](https://github.com/jobhope/TechnicalNote/blob/master/database/IsolationLevel.md)
+- [RDBMS와 NoSQL의 차이](https://github.com/jobhope/TechnicalNote/blob/master/database/RDBMSAndNoSQL.md)
+
 
 ## :octocat: Github [:top:](#top)
 - [repository를 clone할 때 모든 branch를 loacl에 받기](https://github.com/jobhope/TechnicalNote/blob/master/github/CloneRepository.md)
@@ -133,6 +137,7 @@
 
 ## :open_file_folder: Window [:top:](#top)
 - [메시지 루프](https://github.com/jobhope/TechnicalNote/blob/master/windows/MessageLoop.md)
+- [SendMessage, PostMessage](https://github.com/jobhope/TechnicalNote/blob/master/windows/SendMessageAndPostMessage.md)
  
 ## :guitar: ETC [:top:](#top)
 - [NAVER DEVELOPER OPEN CLASS 2019](https://github.com/jobhope/TechnicalNote/blob/master/etc/NAVER_DEVELOPER_OPEN_CLASS_2019.md)
