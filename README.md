@@ -15,8 +15,13 @@
 [![Stupid07](https://avatars1.githubusercontent.com/u/35564566?s=100&v=4)](https://github.com/Stupid07)
 
 ### :frowning_man: **도움을 주신 분들**
-<a href="https://github.com/Kaminari-j"><img width=100 height=100 src="https://avatars2.githubusercontent.com/u/5924648?s=100&v=4"></img>
-</a>   
+<a href="https://github.com/Kaminari-j">
+<img width=100 height=100 src="https://avatars2.githubusercontent.com/u/5924648?s=100&v=4"></img>
+</a>
+<a href="https://github.com/sojeongw">
+<img width=100 height=100 src="https://avatars3.githubusercontent.com/u/33208821?s=100&v=4"></img>
+</a>
+
 **도움에 감사드립니다.** :pray:
 
 
