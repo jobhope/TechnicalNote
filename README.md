@@ -73,7 +73,7 @@
 
 
 ## :octocat: Github [:top:](#top)
-- [repository를 clone할 때 모든 branch를 loacl에 받기](https://github.com/jobhope/TechnicalNote/blob/master/github/CloneRepository.md)
+- [repository를 clone할 때 모든 branch를 local에 받기](https://github.com/jobhope/TechnicalNote/blob/master/github/CloneRepository.md)
 - [Pull Request 방법](https://github.com/jobhope/TechnicalNote/blob/master/github/GithubPullRequestProcess.md)
 
 ## :lips: Java [:top:](#top)
