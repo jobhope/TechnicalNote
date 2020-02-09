@@ -50,7 +50,10 @@
 
 ## :moneybag: C++ [:top:](#top)
 - [형변환 연산자](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/TypeCastingOperator.md)
+- [Const](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Const.md)
+- [Vector](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Vector.md)
 - [Virtual](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Virtual.md)
+
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
@@ -119,6 +122,7 @@
 - [Call by Sharing](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/call-by-sharing.md)
 - [Short Circuit](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/ShortCircuit.md)
 - [함수의 인자 전달 방식](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/CallByParameterType.md)
+- [접근 제한자](https://github.com/jobhope/TechnicalNote/blob/master/programming_language/AccessModifier.md)
 
 ## :lock: Security [:top:](#top)
 - [대칭키와 공개키](https://github.com/jobhope/TechnicalNote/blob/master/security/encryptionKey.md)
