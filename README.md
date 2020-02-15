@@ -58,6 +58,8 @@
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
 - [실행파일의 생성과정](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/ExecutionProcess.md)
+- [컴퓨터에서의 실수 표현방법](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/RealNumberRepresentation.md)
+- [10진수와 2진수의 변환](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/BinaryDecimalConversion.md)
 
 ## :evergreen_tree: Data Structure [:top:](#top)
 - [Stack](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Stack.md)
@@ -144,6 +146,7 @@
 - [HTTP Method](https://github.com/jobhope/TechnicalNote/blob/master/web/HTTPMethod.md)
 - [웹 페이지 속도 개선 방법](https://github.com/jobhope/TechnicalNote/blob/master/web/PageSpeedInsights.md)
 - [DI와 IoC](https://github.com/jobhope/TechnicalNote/blob/master/web/DIAndIoC.md)
+- [GET과 POST의 차이](https://github.com/jobhope/TechnicalNote/blob/master/web/GETAndPOST.md)
 
 ## :open_file_folder: Window [:top:](#top)
 - [메시지 루프](https://github.com/jobhope/TechnicalNote/blob/master/windows/MessageLoop.md)
