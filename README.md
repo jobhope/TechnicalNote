@@ -53,7 +53,7 @@
 - [Const](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Const.md)
 - [Vector](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Vector.md)
 - [Virtual](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/Virtual.md)
-
+- [가상함수의 동작 원리](https://github.com/jobhope/TechnicalNote/blob/master/c%2B%2B/PrincipleOfVirtualFunctionInCpp.md)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](https://github.com/jobhope/TechnicalNote/blob/master/computer_architecture/%EB%B9%85%EC%97%94%EB%94%94%EC%96%B8%EA%B3%BC%20%EB%A6%AC%ED%8B%80%EC%97%94%EB%94%94%EC%96%B8.md)
