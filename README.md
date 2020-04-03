@@ -136,6 +136,7 @@
 - [오픈소스 라이센스](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Opensource%20license.md)
 - [Naming Convention](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/Naming%20Convention.md)
 - [클린 코드](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/CleanCode.md)
+- [MVC 패턴](https://github.com/jobhope/TechnicalNote/blob/master/software_engineering/MVCPattern.md)
 
 ## :earth_asia: Web [:top:](#top)
 - [AMP와 PWA](https://github.com/jobhope/TechnicalNote/blob/master/web/AWPAndPWA.md)
