@@ -24,5 +24,5 @@
 - **n개의 정점**을 **n-1개의 간선**으로 연결한다.
 
 ### 그래프에서 최소 신장 트리를 찾는 알고리즘
-1. Kruskal 알고리즘
+1. [Kruskal 알고리즘](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/Kruskal.md)
 2. Prim 알고리즘
