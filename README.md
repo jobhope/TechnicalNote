@@ -44,6 +44,7 @@
 - [Radix Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/RadixSort.md)
 - [Counting Sort](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/CountingSort.md)
 - [DiceProblem](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/DiceProblem.md)
+- [Kruskal](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/Kruskal.md)
 - [스택으로 큐 구현](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/QueueImplementationWithStack.md)
 - [좌표 압축 기법](https://github.com/jobhope/TechnicalNote/blob/master/algorithm/CoordinateCompression.md)
 
@@ -70,7 +71,6 @@
 - [최소신장트리(MST)](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/MST.md)
 - [자료구조를 이용한 스택의 구현](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/StackImplementation.md)
 - [해싱](https://github.com/jobhope/TechnicalNote/blob/master/data_structure/Hashing.md)
-
 
 ## :floppy_disk: Database [:top:](#top)
 - [DB 쿼리문 정리](https://github.com/jobhope/TechnicalNote/blob/master/database/DBQuery.md)
