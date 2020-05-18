@@ -4,7 +4,7 @@
 [![rlatjdwo555](https://avatars0.githubusercontent.com/u/28692938?s=100&v=4)](https://github.com/rlatjdwo555)
 
 ## URI(Uniform Resource Identifier)
-- 인터넷에서 자원을 **식별**하기 위한 문자열이다. URI는 인터넷의 주소 같은 것으로 정보 리소스를 유일하게 식별하고 위치를 지정할 수 있다. 그리고 이 URL의 하위 개념으로 URL, URN이 있다.
+- 인터넷에서 자원을 **식별**하기 위한 문자열이다. URI는 인터넷의 주소 같은 것으로 정보 리소스를 유일하게 식별하고 위치를 지정할 수 있다. 그리고 이 URI의 하위 개념으로 URL, URN이 있다.
     ```
     1) rewrite 기술을 사용한 의미있는 식별자
     >> http://test.com/company/location
