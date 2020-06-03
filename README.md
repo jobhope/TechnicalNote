@@ -64,7 +64,7 @@
 - [실행파일의 생성과정](computer_architecture/ExecutionProcess.md)
 - [컴퓨터에서의 실수 표현방법](computer_architecture/RealNumberRepresentation.md)
 - [10진수와 2진수의 변환](computer_architecture/BinaryDecimalConversion.md)
-- [유니코드](computer_architecture/unicode.md)
+- [유니코드](computer_architecture/Unicode.md)
 
 ## :evergreen_tree: Data Structure [:top:](#top)
 - [Stack](data_structure/Stack.md)
