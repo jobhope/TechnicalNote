@@ -135,6 +135,7 @@
 ## :lock: Security [:top:](#top)
 - [대칭키와 공개키](security/encryptionKey.md)
 - [파일 완전 삭제](security/DeleteFilePermanently.md)
+- [DMZ(Demilitarized zone)](security/DMZ.md)
 
 ## :hammer: Software Engineering [:top:](#top)
 - [디자인 패턴](software_engineering/Design%20Pattern.md)
