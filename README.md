@@ -50,6 +50,7 @@
 - [Kruskal](algorithm/Kruskal.md)
 - [스택으로 큐 구현](algorithm/QueueImplementationWithStack.md)
 - [좌표 압축 기법](algorithm/CoordinateCompression.md)
+- [하노이의 탑](algorithm/TowerOfHanoi.md)
 
 ## :moneybag: C++ [:top:](#top)
 - [형변환 연산자](cplusplus/TypeCastingOperator.md)
