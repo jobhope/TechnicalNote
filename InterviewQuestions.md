@@ -37,6 +37,7 @@
 - 주력 언어가 무엇인지, 왜 그 언어를 선택했는지 설명
 - 업캐스팅과 다운캐스팅
 - Garbage Collection이 무엇인지 설명
+- "Hello world"를 출력하는 코드를 실행시킬때 일어나는일 설명
 
 ### Java
 - Reflection 설명
@@ -111,7 +112,6 @@
 - http tcp udp에 대해 설명
 - tcp udp의 차이
 - tcp의 nagle 알고리즘
-- 과정에 대해 직접 그리면서 자세히 설명
 - 3-way handshake 과정에서 통신이 안되면 어떤일이 벌어질지 설명
 - 4-way handshake(종료과정) 설명
 - http통신을 api를 안쓰고 하려면?
