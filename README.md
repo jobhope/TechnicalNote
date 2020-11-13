@@ -58,7 +58,6 @@
 - [Vector](cplusplus/Vector.md)
 - [Virtual](cplusplus/Virtual.md)
 - [가상함수의 동작 원리](cplusplus/PrincipleOfVirtualFunctionInCpp.md)
-- [Optimized C++](https://github.com/tdm1223/CppOptimization)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](computer_architecture/BigEndianAndLittleEndian.md)
