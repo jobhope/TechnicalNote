@@ -39,6 +39,7 @@
 - 업캐스팅과 다운캐스팅
 - Garbage Collection이 무엇인지 설명
 - "Hello world"를 출력하는 코드를 실행시킬때 일어나는일 설명
+- Clean Code와 Code Refactoring의 정의
 
 ### Java
 - Reflection 설명
@@ -81,6 +82,7 @@
 - 메모리 단편화와 해결책
 - 코드를 주고 lock을 꼭 걸어야 하는 위치 찾기
 - 시스템 콜이란?
+- 좀비 프로세스와 데몬 프로세스
 
 ## 컴퓨터 구조
 - call by value, call by reference, call by address
@@ -136,6 +138,7 @@
 - Nosql과 RDBMS의 차이
 - 정규화 개념과 각 단계별 설명
 - 참조 무결성과 관련이 없는 항목
+- 비관적 락과 낙관적 락에 대해 
 
 ## 소프트웨어 공학
 - 아는 디자인패턴 10가지 설명
