@@ -58,6 +58,7 @@
 - [Vector](cplusplus/Vector.md)
 - [Virtual](cplusplus/Virtual.md)
 - [가상함수의 동작 원리](cplusplus/PrincipleOfVirtualFunctionInCpp.md)
+- [EnumHack](cplusplus/EnumHack.md)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](computer_architecture/BigEndianAndLittleEndian.md)
@@ -84,6 +85,7 @@
 - [트랜잭션의 ACID 속성](database/ACID.md)
 - [트랜잭션 격리수준](database/IsolationLevel.md)
 - [RDBMS와 NoSQL의 차이](database/RDBMSAndNoSQL.md)
+- [낙관적 락과 비관적 락](database/OptimisticLockAndPessimisticLock.md)
 
 ## :video_game: Game [:top:](#top)
 - [드로우콜 줄이기](game/ReduceDrawCall.md)
