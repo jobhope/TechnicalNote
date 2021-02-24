@@ -27,6 +27,9 @@
 <a href="https://github.com/Endki">
 <img width=100 height=100 src="https://avatars3.githubusercontent.com/u/24868601?s=100&v=4"></img>
 </a>
+<a href="https://github.com/JAlthea">
+<img width=100 height=100 src="https://avatars3.githubusercontent.com/u/50026903?s=100&v=4"></img>
+</a>
 
 **도움에 감사드립니다.** :pray:
 
