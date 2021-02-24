@@ -18,7 +18,7 @@
 class A
 {
 public:
-    virtual void ShowFunc() { cout << "A show" << endl; }
+    virtual void Show() { cout << "A show" << endl; }
 };
 
 class B : public A
