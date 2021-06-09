@@ -65,6 +65,7 @@
 - [Virtual](cplusplus/Virtual.md)
 - [가상함수의 동작 원리](cplusplus/PrincipleOfVirtualFunctionInCpp.md)
 - [EnumHack](cplusplus/EnumHack.md)
+- [inline](cplusplus/Inline.md)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](computer_architecture/BigEndianAndLittleEndian.md)
