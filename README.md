@@ -5,7 +5,6 @@
 :book: TechnicalNote
 ===
 [![GitHub contributors](https://img.shields.io/github/contributors/jobhope/technicalnote)](https://github.com/jobhope/TechnicalNote/graphs/contributors)
-[![HitCount](http://hits.dwyl.io/jobhope/TechnicalNote.svg)](http://hits.dwyl.io/jobhope/TechnicalNote)
 [![GitHub](https://img.shields.io/github/license/jobhope/technicalnote)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/jobhope/technicalnote)](https://github.com/jobhope/TechnicalNote/issues)
 
