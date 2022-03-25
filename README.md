@@ -94,6 +94,9 @@
 - [RDBMS와 NoSQL의 차이](database/RDBMSAndNoSQL.md)
 - [낙관적 락과 비관적 락](database/OptimisticLockAndPessimisticLock.md)
 
+## 🦉 Design Pattern [:top:](#top)
+- [Command Pattern](design_pattern/CommandPattern.md)
+
 ## :video_game: Game [:top:](#top)
 - [드로우콜 줄이기](game/ReduceDrawCall.md)
 
