@@ -96,6 +96,7 @@
 
 ## 🦉 Design Pattern [:top:](#top)
 - [Command Pattern](design_pattern/CommandPattern.md)
+- [Observer Pattern](design_pattern/ObserverPattern.md)
 
 ## :video_game: Game [:top:](#top)
 - [드로우콜 줄이기](game/ReduceDrawCall.md)
