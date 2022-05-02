@@ -32,12 +32,10 @@
 
 **도움에 감사드립니다.** :pray:
 
-## TechnicalNote?
+## TechnicalNote ?
 - **개발 관련 지식**을 정리해 놓은 저장소입니다.
 - 필기시험과 면접에서 **직접 겪었던** 내용 위주로 구성되어 있습니다.
 - 잘못된 부분이 있을 수도 있으니 **가이드라인**으로 참고해주시면 되겠습니다.
-- 궁금한 점이나 잘못된 부분은 **Issue**의 **Question** label 설정 후 등록해주세요.
-- 참고 자료 및 올렸으면 하는 지식을 **[Issue](https://github.com/jobhope/TechnicalNote/issues)** 등록을 통해 추가해주세요.
 
 ## :microphone: 실제 면접 질문 모음  
 - [실제 면접 질문 모음](InterviewQuestions.md)
