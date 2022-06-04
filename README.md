@@ -101,6 +101,7 @@
 - [FactoryMethod Pattern](design_pattern/FactoryMethodPattern.md)
 - [AbstractFactory Pattern](design_pattern/AbstractFactoryPattern.md)
 - [Adapter Pattern](design_pattern/AdapterPattern.md)
+- [Decorator Pattern](design_pattern/DecoratorPattern.md)
 
 ## :video_game: Game [:top:](#top)
 - [드로우콜 줄이기](game/ReduceDrawCall.md)
