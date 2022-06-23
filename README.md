@@ -64,6 +64,7 @@
 - [EnumHack](cplusplus/EnumHack.md)
 - [inline](cplusplus/Inline.md)
 - [EmptyClass](cplusplus/EmptyClass.md)
+- [DanglingPointer](cplusplus/DanglingPointer.md)
 
 ## :computer: Computer Architecture [:top:](#top)
 - [빅엔디언과 리틀엔디언](computer_architecture/BigEndianAndLittleEndian.md)
