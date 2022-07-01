@@ -3,7 +3,7 @@
 ## 작성자
 [![tdm1223](https://avatars1.githubusercontent.com/u/21440957?s=100&v=4)](https://github.com/tdm1223)
 
-# Bridge Pattern
+## Bridge Pattern
 
 ![Bridge](https://user-images.githubusercontent.com/21440957/176828316-7d007d78-0bee-40d6-9bfe-f755912874c2.png)
 
