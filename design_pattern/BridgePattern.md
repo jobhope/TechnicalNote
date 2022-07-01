@@ -1,4 +1,4 @@
-## **Adapter Pattern**
+## **Bridge Pattern**
 
 ## 작성자
 [![tdm1223](https://avatars1.githubusercontent.com/u/21440957?s=100&v=4)](https://github.com/tdm1223)
