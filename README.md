@@ -192,5 +192,3 @@
 - [DEVIEW - Whale 2.0](etc/DEVIEW_Whale.md)
 - [template](etc/template.md)
 - [마크다운 공유 편집 - hackmd](https://hackmd.io/)
-- [2019년 회고 - Jegyun Kang](https://tdm1223.github.io/memoirs/2019-Memoirs)
-- [2021년 회고 - Jegyun Kang](https://tdm1223.github.io/memoirs/2021-Memoirs)
